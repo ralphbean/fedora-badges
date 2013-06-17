@@ -1,4 +1,4 @@
-%YAML 1.2
+YAML 1.2
 ---
 
 # This is some metadata about the badge
@@ -28,7 +28,7 @@ criteria:
       filter:
         topics:
         - "{topic}"     # The topic of the message that triggered us.
-        usernames:
+        users:
         - "{msg.user.username}"
       operation: count
       condition:

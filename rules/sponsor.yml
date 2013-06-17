@@ -28,7 +28,7 @@ criteria:
       filter:
         topics:
         - "{topic}"     # The topic of the message that triggered us.
-        usernames:
+        users:
         - "{msg.user.username}"
       operation: count
       condition:
