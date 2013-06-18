@@ -27,7 +27,7 @@ criteria:
         topics:
         - "{topic}"     # The topic of the message that triggered us.
         users:
-        - "{msg.user}"
+        - "{user}"
       operation: count
       condition:
         greater than or equal to: 10
