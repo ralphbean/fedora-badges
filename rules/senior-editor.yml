@@ -25,9 +25,9 @@ criteria:
   datanommer:
       filter:
         topics:
-        - "{topic}"     # The topic of the message that triggered us.
+        - "%(topic)s"     # The topic of the message that triggered us.
         users:
-        - "{user}"
+        - "%(msg.user)s"
       operation: count
       condition:
         greater than or equal to: 50

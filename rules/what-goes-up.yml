@@ -27,11 +27,11 @@ criteria:
   datanommer:
       filter:
         topics:
-        - "{topic}"     # The topic of the message that triggered us.
+        - "%(topic)s"     # The topic of the message that triggered us.
         users:
-        - "{msg.owner}"  # The user that was created.
+        - "%(msg.owner)s"  # The user that was created.
       operation: count
       condition:
         greater than or equal to: 1 
 
-recipient_key: "{msg.owner}"
+recipient: "%(msg.owner)s"
