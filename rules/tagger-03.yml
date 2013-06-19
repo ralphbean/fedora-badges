@@ -7,10 +7,7 @@ description:    >
     Voted on 250 tags for packages in Fedora Tagger.
 
     The tags from the Fedora Tagger webapp are used all around to improve
-    search and indexing (by the Fedora Packages search tool, by the Bodhi
-    Masher to create yum repo metadata).  By adding and voting on tags for
-    fedora packages, you help directly improve the end user experience.
-    Thank you!
+    search and indexing.  Thank you!
 
 creator:        ralph
 
