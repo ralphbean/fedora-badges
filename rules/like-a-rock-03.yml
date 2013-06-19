@@ -2,8 +2,8 @@
 ---
 
 # This is some metadata about the badge
-name:           Like a Rock
-description:    You pushed your first bodhi update to the stable repositories.
+name:           Like a Rock (Updates-Stable III)
+description:    Pushed 100 bodhi updates to the stable repositories.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
@@ -30,6 +30,6 @@ criteria:
         - "%(msg.update.submitter)s"  # The user that was created.
       operation: count
       condition:
-        greater than or equal to: 1 
+        greater than or equal to: 100 
 
 recipient: "%(msg.update.submitter)s"
