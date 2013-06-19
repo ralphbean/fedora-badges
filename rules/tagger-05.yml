@@ -3,12 +3,7 @@
 
 # This is some metadata about the badge
 name:           Macklemore (Tagger V) 
-description:    >
-    Voted on 2000 tags for packages in Fedora Tagger.  That is a lot!
-
-    The tags from the Fedora Tagger webapp are used all around to improve
-    search and indexing.  Thank you!
-
+description:    Voted on 2000 tags for packages in Fedora Tagger.  That is a lot!
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.

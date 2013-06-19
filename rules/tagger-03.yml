@@ -3,12 +3,7 @@
 
 # This is some metadata about the badge
 name:           Senior Tagger (Tagger III)
-description:    >
-    Voted on 250 tags for packages in Fedora Tagger.
-
-    The tags from the Fedora Tagger webapp are used all around to improve
-    search and indexing.  Thank you!
-
+description:    Voted on 250 tags for packages in Fedora Tagger.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
