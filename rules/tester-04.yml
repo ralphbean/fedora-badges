@@ -1,0 +1,45 @@
+%YAML 1.2
+---
+
+# This is some metadata about the badge
+name:           Catching the Bull (Tester IV)
+description:    >
+    *(a great struggle, the bull repeatedly escapes, discipline required)*
+
+    Tested and added karma to 20 updates-testing updates in Bodhi.
+
+    The name of the badge comes from `The Ten Bulls
+    <https://en.wikipedia.org/wiki/Ten_Bulls>`_ describing stages on the
+    way to enlightment, or "Bodhi".
+
+creator:        ralph
+
+# This is a link to the discussion about adopting this as a for-real badge.
+discussion:     https://github.com/oddshocks/badges/pull/8
+
+# A link to the image for the badge
+image_url:      http://upload.wikimedia.org/wikipedia/commons/5/53/PSM_V37_D209_Fisher_island_sound_rock_forming_natural_breakwater.jpg
+
+# That's us!
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  bodhi.update.comment
+  - lambda:  not msg.get('msg', {}).get('comment', {}).get('anonymous', True)
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.update.author)s"  # The user that was created.
+      operation: count
+      condition:
+        greater than or equal to: 20 
+
+recipient: "%(msg.update.author)s"
