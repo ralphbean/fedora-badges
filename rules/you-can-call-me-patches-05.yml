@@ -2,8 +2,8 @@
 ---
 
 # This is some metadata about the badge
-name:           SCM
-description:    Pushed a commit to a Fedora package repository.
+name:           Patches (SCM IV)
+description:    Pushed 1000 commits to a Fedora package repository.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
@@ -30,4 +30,4 @@ criteria:
         - "%(msg.commit.username)s"
       operation: count
       condition:
-        greater than or equal to: 1 
+        greater than or equal to: 1000 
