@@ -33,9 +33,9 @@ criteria:
         topics:
         - "%(topic)s"     # The topic of the message that triggered us.
         users:
-        - "%(msg.update.author)s"  # The user that was created.
+        - "%(msg.comment.author)s"
       operation: count
       condition:
         greater than or equal to: 20 
 
-recipient: "%(msg.update.author)s"
+recipient: "%(msg.comment.author)s"
