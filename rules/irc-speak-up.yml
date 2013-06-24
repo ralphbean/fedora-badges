@@ -26,8 +26,6 @@ criteria:
       filter:
         topics:
         - "%(topic)s"     # The topic of the message that triggered us.
-        users:
-          lambda: msg.attendees.keys()
       operation: count
       condition:
         greater than or equal to: 1 
