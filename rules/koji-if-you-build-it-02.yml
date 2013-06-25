@@ -2,8 +2,8 @@
 ---
 
 # This is some metadata about the badge
-name:           What goes up...
-description:    Submitted a koji build that failed to build.
+name:           If you build it... (Koji Success II)
+description:    Succesfully completed 10 koji builds.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
@@ -20,7 +20,7 @@ issuer_id: fedora-project
 trigger:
   all:
   - topic:  buildsys.build.state.change
-  - lambda: msg.get('msg', {}).get('new', None) is 3
+  - lambda: msg.get('msg', {}).get('new', None) is 1
 
 # Once the check has been triggered, this defines what we actually check.
 criteria:
@@ -32,6 +32,6 @@ criteria:
         - "%(msg.owner)s"  # The user that was created.
       operation: count
       condition:
-        greater than or equal to: 1 
+        greater than or equal to: 10
 
 recipient: "%(msg.owner)s"

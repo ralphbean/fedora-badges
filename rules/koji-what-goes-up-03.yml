@@ -1,0 +1,37 @@
+%YAML 1.2
+---
+
+# This is some metadata about the badge
+name:           What goes up... (Koji Failure III)
+description:    Submitted 20 or more koji builds that failed to build.
+creator:        ralph
+
+# This is a link to the discussion about adopting this as a for-real badge.
+discussion:     https://github.com/oddshocks/badges/pull/2
+
+# A link to the image for the badge
+image_url:      http://upload.wikimedia.org/wikipedia/commons/5/53/PSM_V37_D209_Fisher_island_sound_rock_forming_natural_breakwater.jpg
+
+# That's us!
+issuer_id: fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  buildsys.build.state.change
+  - lambda: msg.get('msg', {}).get('new', None) is 3
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.owner)s"  # The user that was created.
+      operation: count
+      condition:
+        greater than or equal to: 20
+
+recipient: "%(msg.owner)s"
