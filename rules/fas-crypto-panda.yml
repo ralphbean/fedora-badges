@@ -20,7 +20,7 @@ issuer_id: fedora-project
 trigger:
   all:
   - topic:  fas.user.update
-  - lambda: 'gpg_keyid' in msg.get('msg', {}).get('fields', [])
+  - lambda: "'gpg_keyid' in msg.get('msg', {}).get('fields', [])"
 
 # Once the check has been triggered, this defines what we actually check.
 criteria:
