@@ -32,4 +32,4 @@ criteria:
       condition:
         greater than or equal to: 1
 
-recipient: "%(msg.user.username)s"
+recipient: "%(msg.user)s"
