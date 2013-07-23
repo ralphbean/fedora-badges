@@ -10,8 +10,7 @@ creator:        ralph
 discussion:     https://github.com/oddshocks/badges/pull/3
 
 # A link to the image for the badge
-image_url:      http://i1.wp.com/fedoraproject.org/static/images/fedora_infinity_140x140.png
-
+image_url:	http://infrastructure.fedoraproject.org/infra/badges/pngs/is-this-thing-on-03.png
 # That's us!
 issuer_id: fedora-project
 
