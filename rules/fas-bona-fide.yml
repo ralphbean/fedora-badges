@@ -10,7 +10,7 @@ creator:        ralph
 discussion:     https://github.com/oddshocks/badges/issues/9
 
 # A link to the image for the badge
-image_url:	http://infrastructure.fedoraproject.org/infra/badges/pngs/fas-bona-fide.png
+image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/fas-bona-fide.png
 # That's us!
 issuer_id: fedora-project
 

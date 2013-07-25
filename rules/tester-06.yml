@@ -14,7 +14,7 @@ creator:        ralph
 discussion:     https://github.com/oddshocks/badges/pull/8
 
 # A link to the image for the badge
-image_url:	http://infrastructure.fedoraproject.org/infra/badges/pngs/tester-06.png
+image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/tester-06.png
 # That's us!
 issuer_id:      fedora-project
 
