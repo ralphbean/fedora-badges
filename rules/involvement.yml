@@ -3,7 +3,7 @@
 
 # This is some metadata about the badge
 name:           Involvement
-description:    You created an account in the Fedora Account System (FAS)
+description:    You signed the Fedora Project Contributor Agreement (FPCA)
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
@@ -17,7 +17,9 @@ issuer_id: fedora-project
 # We'll perform our more costly check (defined below) only when
 # we receive messages that match this 'trigger'
 trigger:
-  topic:  fas.user.create
+  all:
+  - topic:  fas.group.member.sponsor
+  - lambda: "'cla_fpca' is msg.get('msg', {}).get('group', {}).get('name', None)"
 
 # Once the check has been triggered, this defines what we actually check.
 criteria:
