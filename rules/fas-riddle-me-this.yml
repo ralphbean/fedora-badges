@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+
+# This is some metadata about the badge
+name:           Riddle Me This
+description:    You updated your Security Question with the Fedora Account System (FAS)
+creator:        ralph
+
+# This is a link to the discussion about adopting this as a for-real badge.
+discussion:     https://fedorahosted.org/fedora-badges/ticket/5
+
+# A link to the image for the badge
+image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/fas-riddle-me-this.png
+# That's us!
+issuer_id: fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  fas.user.update
+  - lambda: "'security_question' in msg.get('msg', {}).get('fields', [])"
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.user)s"
