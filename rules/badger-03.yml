@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+
+name:           Master Badger (Badger II)
+description:    You got 100 Fedora Badges!  Wow!
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/13
+image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/badger-03.png
+issuer_id:      fedora-project
+
+trigger:
+  topic:  fedbadges.badge.award
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.user.username)s"
+      operation: count
+      condition:
+        greater than or equal to: 100
+
+recipient: "%(msg.user.username)s"
