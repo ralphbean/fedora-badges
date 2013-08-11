@@ -20,7 +20,7 @@ issuer_id:      fedora-project
 trigger:
   all:
   - topic: trac.ticket.new
-  - lambda:  not msg.get('msg', {}).get('instance', {}).get('project_name', None) == 'fedora-badges'
+  - lambda:  msg.get('msg', {}).get('instance', {}).get('project_name', None) == 'fedora-badges'
 
 # Once the check has been triggered, this defines what we actually check.
 criteria:
