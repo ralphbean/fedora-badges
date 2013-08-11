@@ -34,4 +34,4 @@ criteria:
       condition:
         greater than or equal to: 1
 
-recipient_key: "%(msg.agent)s"
+recipient: "%(msg.agent)s"
