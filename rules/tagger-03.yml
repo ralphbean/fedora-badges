@@ -10,7 +10,7 @@ creator:        ralph
 discussion:     https://github.com/oddshocks/badges/pull/8
 
 # A link to the image for the badge
-image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/tagger-03.png
+image_url:      https://badges.fedoraproject.org/pngs/tagger-03.png
 # That's us!
 issuer_id:      fedora-project
 

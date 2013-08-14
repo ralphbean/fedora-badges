@@ -10,7 +10,7 @@ creator:        ralph
 discussion:     https://github.com/oddshocks/badges/pull/15
 
 # A link to the image for the badge
-image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/fas-crypto-panda.png
+image_url:      https://badges.fedoraproject.org/pngs/fas-crypto-panda.png
 # That's us!
 issuer_id: fedora-project
 

@@ -10,7 +10,7 @@ creator:        ralph
 discussion:     https://fedorahosted.org/fedora-badges/ticket/5
 
 # A link to the image for the badge
-image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/fas-riddle-me-this.png
+image_url:      https://badges.fedoraproject.org/pngs/fas-riddle-me-this.png
 # That's us!
 issuer_id: fedora-project
 
