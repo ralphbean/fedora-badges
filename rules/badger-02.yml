@@ -5,7 +5,7 @@ name:           Senior Badger (Badger II)
 description:    You got 50 or more Fedora Badges
 creator:        ralph
 discussion:     https://fedorahosted.org/fedora-badges/ticket/12
-image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/badger-02.png
+image_url:      https://badges.fedoraproject.org/pngs/badger-02.png
 issuer_id:      fedora-project
 
 trigger:

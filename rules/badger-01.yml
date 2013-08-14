@@ -5,7 +5,7 @@ name:           Junior Badger (Badger I)
 description:    You got your first 10 Fedora Badges
 creator:        ralph
 discussion:     https://fedorahosted.org/fedora-badges/ticket/11
-image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/badger-01.png
+image_url:      https://badges.fedoraproject.org/pngs/badger-01.png
 issuer_id:      fedora-project
 
 trigger:

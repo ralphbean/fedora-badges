@@ -10,7 +10,7 @@ creator:        ralph
 discussion:     https://github.com/oddshocks/badges/blob/master/docs/badges.rst
 
 # A link to the image for the badge
-image_url:      http://infrastructure.fedoraproject.org/infra/badges/pngs/master-editor.png
+image_url:      https://badges.fedoraproject.org/pngs/master-editor.png
 # That's us!
 issuer_id: fedora-project
 
