@@ -20,9 +20,9 @@ issuer_id:      fedora-project
 trigger:
   all:
    - topic:        pkgdb.acl.update
-   - lambda:       msg.get('msg', {}).get('acl', None) is 'commit'
-   - lambda:       msg.get('msg', {}).get('status', None) is 'Approved'
-   - lambda:       not msg.get('msg', {}).get('username', None) is None
+   - lambda:       msg.get('msg', {}).get('acl', None) == 'commit'
+   - lambda:       msg.get('msg', {}).get('status', None) == 'Approved'
+   - lambda:       not msg.get('msg', {}).get('username', None) == None
    - lambda:       msg.get('msg', {}).get('username', None) != msg.get('msg', {}).get('agent', None)
 
 # This criteria check could just be left empty since the trigger matching is all
