@@ -1,0 +1,42 @@
+%YAML 1.2
+---
+
+# This is some metadata about the badge.
+name:           Partners in Crime
+description:    You added a co-maintainer to a package. BFF!
+creator:        adamwill
+
+# This is a link to the discussion about adopting this as a for-real badge.
+discussion:     https://fedorahosted.org/fedora-badges/ticket/66
+
+# A link to the image for the badge.
+image_url:      
+
+# The issuer.
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below)
+# only when we receive messages that match this trigger.
+trigger:
+  all:
+   - topic:        pkgdb.acl.update
+   - lambda:       msg.get('msg', {}).get('acl', None) is 'commit'
+   - lambda:       msg.get('msg', {}).get('status', None) is 'Approved'
+   - lambda:       msg.get('msg', {}).get('username', None) is not None
+   - lambda:       msg.get('msg', {}).get('username', None) != msg.get('msg', {}).get('agent', None)
+
+# This criteria check could just be left empty since the trigger matching is all
+# that we need.  We'll do something trivial just because fedbadges demands a
+# criteria block.  We can remove this in the future.
+criteria:       
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.agent)s"  # The badge recipient.
+      operation: count
+      condition:
+        greater than or equal to: 1 
+
+recipient: "%(msg.agent)s"
