@@ -20,7 +20,7 @@ issuer_id: fedora-project
 trigger:
   all:
   - topic: fas.group.member.sponsor
-  - lambda: msg.get('msg', {}).get('group', {}).get('username', None) == 'sponsor'
+  - lambda: msg.get('msg', {}).get('group', None) == 'sponsor'
 
 # Once the check has been triggered, this defines what we actually check.
 criteria:
