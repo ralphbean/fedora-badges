@@ -3,11 +3,11 @@
 
 # This is some metadata about the badge
 name:           Proven Tester
-description:    Became a member of the proventester group.
+description:    Was at one time a member of the proventester group, since retired.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
-discussion:     https://github.com/oddshocks/badges/blob/master/docs/badges.rst
+discussion:     https://fedoraproject.org/wiki/Proven_tester
 
 # A link to the image for the badge
 image_url:      https://badges.fedoraproject.org/pngs/proven-tester.png
@@ -19,7 +19,7 @@ issuer_id: fedora-project
 trigger:
   all:
   - topic: fas.group.member.sponsor
-  - lambda: msg.get('msg', {}).get('group', {}).get('username', None) == 'proventester'
+  - lambda: msg.get('msg', {}).get('group', None) == 'proventester'
 
 # Once the check has been triggered, this defines what we actually check.
 criteria:

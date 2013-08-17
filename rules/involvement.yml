@@ -19,7 +19,7 @@ issuer_id: fedora-project
 trigger:
   all:
   - topic:  fas.group.member.sponsor
-  - lambda: "'cla_fpca' is msg.get('msg', {}).get('group', None)"
+  - lambda: msg.get('msg', {}).get('group', None) == 'cla_fpca'
 
 # Once the check has been triggered, this defines what we actually check.
 criteria:
