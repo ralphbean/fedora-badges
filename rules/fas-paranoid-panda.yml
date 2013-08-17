@@ -9,7 +9,7 @@ creator:        lmacken
 discussion:     https://fedorahosted.org/fedora-badges/ticket/57
 
 # A link to the image for the badge.
-image_url:      
+image_url:      https://badges.fedoraproject.org/pngs/fas-paranoid-panda.png
 
 # The issuer.
 issuer_id: fedora-project
