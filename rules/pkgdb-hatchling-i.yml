@@ -10,7 +10,7 @@ creator:        adamwill
 discussion:     https://fedorahosted.org/fedora-badges/ticket/22
 
 # A link to the image for the badge.
-image_url:      
+image_url:      https://badges.fedoraproject.org/pngs/pkgdb-hatchling-i.png
 
 # The issuer.
 issuer_id:      fedora-project

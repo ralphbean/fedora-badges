@@ -10,7 +10,7 @@ creator:        adamwill
 discussion:     https://fedorahosted.org/fedora-badges/ticket/66
 
 # A link to the image for the badge.
-image_url:      
+image_url:      https://badges.fedoraproject.org/pngs/pkgdb-partners-in-crime.png
 
 # The issuer.
 issuer_id:      fedora-project
