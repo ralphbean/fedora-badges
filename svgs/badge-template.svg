@@ -16,7 +16,7 @@
    height="765"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r11963"
+   inkscape:version="0.48+devel r12417"
    sodipodi:docname="badge-template.svg"
    enable-background="new">
   <defs
@@ -6817,6 +6817,18 @@
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
     </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter9656"
+       x="-0.023999998"
+       width="1.048"
+       y="-0.024000002"
+       height="1.048">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.78000015"
+         id="feGaussianBlur9658" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -6825,16 +6837,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="287.38794"
-     inkscape:cy="-2941.1527"
+     inkscape:zoom="4.0000001"
+     inkscape:cx="109.06917"
+     inkscape:cy="-2857.0119"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="710"
+     inkscape:window-width="1920"
+     inkscape:window-height="1174"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:snap-global="false"
@@ -6851,7 +6863,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38896,7 +38908,7 @@
        inkscape:export-xdpi="209.45316"
        inkscape:export-ydpi="209.45316">
       <path
-         style="fill:#db3279;fill-opacity:1;stroke:#58595b;stroke-width:4.50271511;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter2620-2)"
+         style="fill:#db3279;fill-opacity:1;stroke:#58595b;stroke-width:4.50271511;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter9656)"
          id="path17861"
          d="m 134.00002,125.00183 c 0,-21.53997 -17.46062,-39.00185 -38.999836,-39.00185 -21.529216,0 -38.982968,17.44751 -38.998584,38.97439 l -0.0016,-10e-4 0,30.18098 0.0016,9.9e-4 c 0.01184,4.88773 3.975508,8.84465 8.866181,8.84465 0.01374,0 0.02745,-9.9e-4 0.04187,-9.9e-4 l 0.0024,9.9e-4 30.10304,0 0,0 C 116.54814,163.99099 134.00001,146.53556 134.00001,125.00183 Z"
          inkscape:connector-curvature="0"
