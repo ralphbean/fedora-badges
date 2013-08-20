@@ -21,13 +21,13 @@ trigger:
 
 # Once the check has been triggered, this defines what we
 # actually check.
-criteria:       
+criteria:
   datanommer:
       filter:
         topics:
         - "%(topic)s"
       operation: count
       condition:
-        greater than or equal to: 1
+        greater than or equal to: 2
 
 recipient: "%(msg.user)s"
