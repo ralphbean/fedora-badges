@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+name:           The cat came back...
+description:    You took ownership of a previously orphaned package.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/7
+image_url:      https://badges.fedoraproject.org/pngs/pkgdb-the-cat-came-back.png
+issuer_id:      fedora-project
+
+# This is really all that matters for this badge.
+trigger:
+  all:
+  - topic: pkgdb.owner.update
+  - lambda: msg.get('msg', {}).get('package_listing', {}).get('owner', None) != None
+  - lambda: msg.get('msg', {}).get('package_listing', {}).get('owner', None) != 'orphan'
+  - lambda: msg.get('msg', {}).get('package_listing', {}).get('owner', None) == msg.get('msg', {}).get('package_listing', {}).get('agent', None)
+
+# This is really a throwaway check.  fedbadges demands that we have one.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.agent)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.agent)s"
