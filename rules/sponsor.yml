@@ -2,15 +2,15 @@
 ---
 
 # This is some metadata about the badge
-name:           Sponsor
-description:    Became a member of the sponsor group.
+name:           Packager Sponsor
+description:    Became a sponsor of new packagers.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
 discussion:     https://github.com/oddshocks/badges/blob/master/docs/badges.rst
 
 # A link to the image for the badge
-image_url:      https://badges.fedoraproject.org/pngs/fas-sponsor.png
+image_url:      https://badges.fedoraproject.org/pngs/fas-packager-sponsor.png
 
 # That's us!
 issuer_id: fedora-project
@@ -32,6 +32,6 @@ criteria:
         - "%(msg.user.username)s"
       operation: count
       condition:
-        greater than or equal to: 1 
+        greater than or equal to: 1
 
 recipient: "%(msg.user.username)s"
