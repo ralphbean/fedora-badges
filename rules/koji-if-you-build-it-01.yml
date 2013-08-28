@@ -29,7 +29,9 @@ criteria:
         - "%(topic)s"     # The topic of the message that triggered us.
         users:
         - "%(msg.owner)s"  # The user that was created.
-      operation: count
+        rows_per_page: 9999999
+      operation:
+        lambda: len([msg for msg in query.all() if msg.msg['new'] is 1])
       condition:
         greater than or equal to: 1 
 
