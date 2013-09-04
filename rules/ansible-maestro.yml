@@ -20,6 +20,6 @@ criteria:
         - "%(msg.userid)s"
       operation: count
       condition:
-        greater than or equal to: 1
+        greater than or equal to: 0
 
 recipient: "%(msg.userid)s"
