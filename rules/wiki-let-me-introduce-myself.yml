@@ -13,7 +13,7 @@ issuer_id:      fedora-project
 trigger:
   all:
   - topic: wiki.article.edit
-  - lamba: msg.get('msg', {}).get('title', None) == "User:" + msg.get('msg', {}).get('user', None)
+  - lambda: msg.get('msg', {}).get('title', None) == "User:" + msg.get('msg', {}).get('user', None)
 
 criteria:
   datanommer:
