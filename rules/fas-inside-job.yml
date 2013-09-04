@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+
+name:           Inside Job
+description:    A member of the sysadmin-badges group.  Nothing to see here..  move along.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/26
+image_url:      https://badges.fedoraproject.org/pngs/fas-inside-job.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  fas.group.member.sponsor
+  - lambda: msg.get('msg', {}).get('group', None) == 'sysadmin-badges'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.user)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.user)s"

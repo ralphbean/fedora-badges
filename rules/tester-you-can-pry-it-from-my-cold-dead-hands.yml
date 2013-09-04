@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+
+name:           You can pry it from my cold, dead hands
+description:    Tested an update for the soon-to-be-retired Fedora release.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/72
+image_url:      https://badges.fedoraproject.org/pngs/tester-you-can-pry-it-from-my-cold-dead-hands.png
+issuer_id:      fedora-project
+
+# TODO -- we have to update the .fc18 at the end of this string with .fc19 once f18 is EOL
+# https://fedoraproject.org/wiki/End_of_life_SOP#Badges_tasks
+trigger:
+  all:
+  - topic:  bodhi.update.comment
+  - lambda:  not msg.get('msg', {}).get('comment', {}).get('update_title', 'nope').endswith('.fc18')
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.comment.author)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.comment.author)s"

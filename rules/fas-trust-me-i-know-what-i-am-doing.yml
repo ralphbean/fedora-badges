@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+
+name:           Trust me, I know what I am doing
+description:    A member of sysadmin-main.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/31
+image_url:      https://badges.fedoraproject.org/pngs/fas-trust-me-i-know-what-i-am-doing.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  fas.group.member.sponsor
+  - lambda: msg.get('msg', {}).get('group', None) == 'sysadmin-main'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.user)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.user)s"
