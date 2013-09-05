@@ -13,7 +13,7 @@ issuer_id:      fedora-project
 trigger:
   all:
   - topic:  bodhi.update.comment
-  - lambda:  not msg.get('msg', {}).get('comment', {}).get('update_title', 'nope').endswith('.fc18')
+  - lambda:  msg.get('msg', {}).get('comment', {}).get('update_title', 'nope').endswith('.fc18')
 
 criteria:
   datanommer:
