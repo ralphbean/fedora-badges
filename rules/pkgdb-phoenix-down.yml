@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+
+# This is some metadata about the badge.
+name:           Phoenix Down
+description:    You unretired a package from the distribution. Long may it live!
+creator:        adamwill
+
+# This is a link to the discussion about adopting this as a for-real badge.
+discussion:     https://fedorahosted.org/fedora-badges/ticket/22
+
+# A link to the image for the badge.
+image_url:      https://badges.fedoraproject.org/pngs/pkgdb-phoenix-down.png
+
+# The issuer.
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below)
+# only when we receive messages that match this trigger.
+trigger:
+  all:
+  - topic:        pkgdb.package.retire
+  - lambda:       msg.get('msg', {}).get('retirement', None) is 'unretired'
+
+# Once the check has been triggered, this defines what we
+# actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.agent)s"  # The owner of the retired package.
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.agent)s"

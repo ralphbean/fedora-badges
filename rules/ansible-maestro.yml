@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+
+name:           Maestro
+description:    Has used an ansible playbook to deploy to Fedora Infrastructure
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/14
+image_url:      https://badges.fedoraproject.org/pngs/ansible-maestro.png
+issuer_id:      fedora-project
+
+trigger:
+  topic:  ansible.playbook.complete
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.userid)s"
+      operation: count
+      condition:
+        greater than or equal to: 0
+
+recipient: "%(msg.userid)s"
