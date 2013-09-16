@@ -13,7 +13,7 @@ trigger:
   - any:
     - topic:  bodhi.update.request.stable
     - topic:  bodhi.update.request.testing
-  - lambda: msg.get('msg', {}).get('update', {}).get('type', 'wat')) == 'security'
+  - lambda: msg.get('msg', {}).get('update', {}).get('type', 'wat') == 'security'
 
 criteria:
   datanommer:
