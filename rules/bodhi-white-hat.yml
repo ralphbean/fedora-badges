@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+
+name:           White Hat
+description:    You submitted a bodhi update with type "security"
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/99
+image_url:      https://badges.fedoraproject.org/pngs/white-hat.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - any:
+    - topic:  bodhi.update.request.stable
+    - topic:  bodhi.update.request.testing
+  - lambda: msg.get('msg', {}).get('update', {}).get('type', 'wat')) == 'security'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.update.submitter)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.update.submitter)s"

@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+
+name:           The Tower of Babel (Koji Success VII)
+description:    Succesfully completed 10000 koji builds.  That is *so* many.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/8
+image_url:      https://badges.fedoraproject.org/pngs/the-tower-of-babel.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  buildsys.build.state.change
+  - lambda: msg.get('msg', {}).get('new', None) is 1
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.owner)s"  # The user that was created.
+        rows_per_page: 9999999
+      operation:
+        lambda: len([msg for msg in query.all() if msg.msg['new'] is 1])
+      condition:
+        greater than or equal to: 10000
+
+recipient: "%(msg.owner)s"
