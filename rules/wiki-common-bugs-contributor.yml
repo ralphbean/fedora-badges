@@ -19,7 +19,7 @@ issuer_id:      fedora-project
 trigger:
   all:
    - topic: wiki.article.edit
-   - lambda:       re.match(r'Common_F\d+_Bugs', msg.get('msg', {}).get('title', ''))
+   - lambda:       re.match(r'Common F\d+ Bugs', msg.get('msg', {}).get('title', ''))
 
 
 # This criteria check could just be left empty since the trigger matching is all
