@@ -15,11 +15,11 @@ image_url:      https://badges.fedoraproject.org/pngs/wiki-common-bugs.png
 # That's us!
 issuer_id:      fedora-project
 
-# common bugs pages are always Common_FNN_Bugs, NN being the release
+# common bugs pages are always Common_FNN_bugs, NN being the release
 trigger:
   all:
    - topic: wiki.article.edit
-   - lambda:       re.match(r'Common F\d+ Bugs', msg.get('msg', {}).get('title', ''))
+   - lambda:       re.match(r'Common F\d+ bugs', msg.get('msg', {}).get('title', ''))
 
 
 # This criteria check could just be left empty since the trigger matching is all
