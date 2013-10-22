@@ -20,7 +20,7 @@ issuer_id:      fedora-project
 trigger:
   all:
   - topic:        pkgdb.package.retire
-  - lambda:       msg.get('msg', {}).get('retirement', None) is 'retired'
+  - lambda:       msg.get('msg', {}).get('retirement', None) == 'retired'
 
 # Once the check has been triggered, this defines what we
 # actually check.
