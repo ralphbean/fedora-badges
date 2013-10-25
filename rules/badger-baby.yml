@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+
+name:           Baby Badger
+description:    You have logged in to the Fedora Badges app
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/27
+image_url:      https://badges.fedoraproject.org/pngs/baby-badger.png
+issuer_id:      fedora-project
+
+trigger:
+  topic:  fedbadges.person.login.first
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.user.username)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.user.username)s"
