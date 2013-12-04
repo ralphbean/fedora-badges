@@ -15,7 +15,7 @@ trigger:
   all:
   - topic: trac.ticket.update
   - lambda:  msg.get('msg', {}).get('instance', {}).get('project_name', None) == 'freemedia'
-  - lambda:  'status' in msg.get('msg', {}).get('old_values', {})
+  - lambda:  "'status' in msg.get('msg', {}).get('old_values', {})"
   - lambda:  msg.get('msg', {}).get('ticket', {}).get('status', None) == 'closed'
   - lambda:  msg.get('msg', {}).get('ticket', {}).get('resolution', None) == 'fixed'
 
