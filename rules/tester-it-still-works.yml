@@ -8,12 +8,12 @@ discussion:     https://fedorahosted.org/fedora-badges/ticket/71
 image_url:      https://badges.fedoraproject.org/pngs/it-still-works.png
 issuer_id:      fedora-project
 
-# TODO -- we have to update the .fc18 at the end of this string with .fc19 once f20 is GA
+# TODO -- we have to update the .fc19 at the end of this string with .fc20 once f21 is GA
 # http://infrastructure.fedoraproject.org/infra/docs/fedora-releases.txt
 trigger:
   all:
   - topic:  bodhi.update.comment
-  - lambda:  msg.get('msg', {}).get('comment', {}).get('update_title', 'nope').endswith('.fc18')
+  - lambda:  msg.get('msg', {}).get('comment', {}).get('update_title', 'nope').endswith('.fc19')
 
 criteria:
   datanommer:
