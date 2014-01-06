@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+name:           You Can Pry It From My Cold, Undead Hands
+description:    You commited to an EOL repository.  Also, BRAAAAAAAAAINS.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/74
+image_url:      https://badges.fedoraproject.org/pngs/you-can-pry-it-from-my-cold-undead-hands.png
+issuer_id:      fedora-project
+
+# Here we award the badge if the user pushes a commit to a branch that is in our blacklist
+trigger:
+  all:
+  - topic:  git.receive
+  - lambda: "msg.get('msg', {}).get('commit', {}).get('branch', None) in ['f17', 'f16', 'f15']"
+
+# This is boilerplate to make the fedbadges daemon happy
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.commit.username)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
