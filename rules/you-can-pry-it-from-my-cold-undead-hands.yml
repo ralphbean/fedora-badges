@@ -10,7 +10,7 @@ issuer_id:      fedora-project
 # Here we award the badge if the user pushes a commit to a branch that is in our blacklist
 trigger:
   all:
-  - topic:  git.receive
+  - topic:  prod.git.receive
   - lambda: "msg.get('msg', {}).get('commit', {}).get('branch', None) in ['f17', 'f16', 'f15']"
 
 # This is boilerplate to make the fedbadges daemon happy
