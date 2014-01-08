@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+
+name:           Building the Outer Ring (Copr Build VI)
+description:    Successfully completed 300 copr builds
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/212
+image_url:      https://badges.fedoraproject.org/pngs/copr-build-300.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  copr.build.end
+  - lambda: msg.get('msg', {}).get('status', None) is 1
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.user)s"  # The user that was created.
+        rows_per_page: 9999999
+      operation:
+        lambda: len([msg for msg in query.all() if msg.msg['status'] is 1])
+      condition:
+        greater than or equal to: 300
+
+recipient: "%(msg.user)s"
