@@ -8,12 +8,12 @@ discussion:     https://fedorahosted.org/fedora-badges/ticket/72
 image_url:      https://badges.fedoraproject.org/pngs/tester-you-can-pry-it-from-my-cold-dead-hands.png
 issuer_id:      fedora-project
 
-# TODO -- we have to update the .fc18 at the end of this string with .fc19 once f18 is EOL
+# TODO -- we have to update the .fc19 at the end of this string with .fc20 once f19 is EOL
 # https://fedoraproject.org/wiki/End_of_life_SOP#Badges_tasks
 trigger:
   all:
   - topic:  bodhi.update.comment
-  - lambda:  msg.get('msg', {}).get('comment', {}).get('update_title', 'nope').endswith('.fc18')
+  - lambda:  msg.get('msg', {}).get('comment', {}).get('update_title', 'nope').endswith('.fc19')
 
 criteria:
   datanommer:
