@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+
+name:           No Longer a Ronin
+description:    You were sponsored into the Fedora Infrastructure Apprentice group
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/87
+image_url:      https://badges.fedoraproject.org/pngs/no-ronin.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  fas.group.member.sponsor
+  - lambda: msg.get('msg', {}).get('group', None) == 'fi-apprentice'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.user)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.user)s"
