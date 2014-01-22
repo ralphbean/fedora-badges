@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+
+name:           Town Hall Moderator
+description:    You moderated an election town hall event
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/202
+image_url:      https://badges.fedoraproject.org/pngs/town-hall-moderator.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic: meetbot.meeting.complete
+  - lambda: "'#fedora-townhall' == msg.get('msg', {}).get('channel', None)"
+  - lambda: "len(msg.get('msg', {}).get('attendees', {})) > 2"
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.owner)s"
+recipient_nick2fas: Yes
