@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+
+name:           Override, you say?
+description:    Created a buildroot override in the koji build system
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/198
+image_url:      https://badges.fedoraproject.org/pngs/override-you-say.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  bodhi.buildroot_override.tag
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.override.submitter)s"  # The user that was created.
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.override.submitter)s"
