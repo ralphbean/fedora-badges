@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+
+name:           Master (Wordsmith IV)
+description:    You've made 1250 commits to the Fedora Docs repos.  Prodigious!
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/110
+image_url:      https://badges.fedoraproject.org/pngs/master-wordsmith.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  trac.git.receive
+  - any:
+    - lambda: msg.get('msg', {}).get('commit', {}).get('path', '').startswith('/srv/git/docs/')
+    - lambda: msg.get('msg', {}).get('commit', {}).get('path', '').startswith('/srv/git/securityguide')
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.commit.username)s"
+        rows_per_page: 9999999
+      operation:
+        lambda:  [m for m in query.all() if any([m.msg.get('commit', {}).get('path', '').startswith('/srv/git/docs/'), m.msg.get('commit', {}).get('path', '').startswith('/srv/git/securityguide')])]
+      condition:
+        greater than or equal to: 1250
+
+recipient: "%(msg.commit.username)s"
