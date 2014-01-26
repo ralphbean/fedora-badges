@@ -27,7 +27,7 @@ criteria:
         - "%(msg.commit.username)s"
         rows_per_page: 9999999
       operation:
-        lambda:  [m for m in query.all() if any([m.msg.get('commit', {}).get('path', '').startswith('/srv/git/docs/'), m.msg.get('commit', {}).get('path', '').startswith('/srv/git/securityguide')])]
+        lambda:  "[m for m in query.all() if any([m.msg.get('commit', {}).get('path', '').startswith('/srv/git/docs/'), m.msg.get('commit', {}).get('path', '').startswith('/srv/git/securityguide')])]"
       condition:
         greater than or equal to: 50
 
