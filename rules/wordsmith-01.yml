@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+
+name:           Novice (Wordsmith I)
+description:    You've made 5 commits to the Fedora Docs repos.  Good start!
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/110
+image_url:      https://badges.fedoraproject.org/pngs/novice-wordsmith.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  trac.git.receive
+  - any:
+    - lambda: msg.get('msg', {}).get('commit', {}).get('path', '').startswith('/srv/git/docs/')
+    - lambda: msg.get('msg', {}).get('commit', {}).get('path', '').startswith('/srv/git/securityguide')
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.commit.username)s"
+        rows_per_page: 9999999
+      operation:
+        lambda:  "len([m for m in query.all() if any([m.msg.get('commit', {}).get('path', '').startswith('/srv/git/docs/'), m.msg.get('commit', {}).get('path', '').startswith('/srv/git/securityguide')])])"
+      condition:
+        greater than or equal to: 5 
+
+recipient: "%(msg.commit.username)s"
