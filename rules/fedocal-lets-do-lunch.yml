@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+
+name:           Let's do lunch!
+description:    You set up a meeting in the Fedora Calendar
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/81
+image_url:      https://badges.fedoraproject.org/pngs/lets-do-lunch.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  fedocal.meeting.new
+  - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '').startswith('fedora-meeting')"
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.agent)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.agent)"s
