@@ -24,4 +24,4 @@ criteria:
       condition:
         greater than or equal to: 1
 
-recipient: "%(msg.agent)"s
+recipient: "%(msg.agent)s"
