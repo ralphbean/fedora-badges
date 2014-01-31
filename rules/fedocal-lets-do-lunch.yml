@@ -10,8 +10,12 @@ issuer_id:      fedora-project
 
 trigger:
   all:
-  - topic:  fedocal.meeting.new
-  - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '').startswith('fedora-meeting')"
+  - any:
+    - topic:  fedocal.meeting.new
+    - topic:  fedocal.meeting.update
+  - any:
+    - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '').startswith('fedora-meeting')"
+    - lambda: "msg.get('msg', {}).get('meeting', {}).get('calendar_name', '') == 'fedora-meeting'"
 
 criteria:
   datanommer:
