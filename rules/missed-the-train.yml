@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+
+name:           Missed the Train
+description:    You submitted feedback for an update in Bodhi after it was pushed to stable
+creator:        greenfeld
+discussion:     https://fedorahosted.org/fedora-badges/ticket/165
+image_url:      https://badges.fedoraproject.org/pngs/missed-the-train.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  bodhi.update.comment
+  - lambda: msg.get('msg', {}).get('comment', {}).get('update_status') == 'stable'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.agent)s"

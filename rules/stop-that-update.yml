@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+
+name:           Stop That Update!
+description:    Busted!  You submitted negative feedback on an update while on its way to the stable repo
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/166
+image_url:      https://badges.fedoraproject.org/pngs/stop-that-update.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  bodhi.update.comment
+  - lambda: msg.get('msg', {}).get('comment', {}).get('karma') is -1
+  - any:
+    - lambda: msg.get('msg', {}).get('comment', {}).get('update_status') == 'stable'
+    - lambda: msg.get('msg', {}).get('comment', {}).get('update_status') == 'pending'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.agent)s"
