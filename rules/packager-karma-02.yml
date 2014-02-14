@@ -1,0 +1,37 @@
+%YAML 1.2
+---
+
+name:           What goes around comes around (Karma II)
+description:    You have received 10 or more good karma on your bodhi updates
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/153
+image_url:      https://badges.fedoraproject.org/pngs/what-goes-around-comes-around-10.png
+issuer_id:      fedora-project
+
+# Here we check two things,
+# 1) that it was really a +1 karma comment...
+# 2) that there is actually an 'update_submitter' attached to the message.
+#    only new-style bodhi comment messages have this.  one ones don't.
+trigger:
+  all:
+  - topic:  bodhi.update.comment
+  - lambda: msg.get('msg', {}).get('comment', {}).get('update_submitter')
+  - lambda: msg.get('msg', {}).get('comment', {}).get('karma') is 1
+
+# Once the check has been triggered, this defines what we actually check.
+# We go back in history, pull out all the old comments, and check to see
+# if the person has the appropriate number of +1s
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+#        users:
+#        - "%(msg.comment.update_submitter)s"
+        rows_per_page: 9999999
+      operation:
+        lambda: len([msg for msg in query.all() if msg.msg['comment'].get('update_submitter', None) == "%(msg.comment.update_submitter)s" and msg.msg['comment']['karma'] is 1])
+      condition:
+        greater than or equal to: 10
+
+recipient: "%(msg.comment.update_submitter)s"
