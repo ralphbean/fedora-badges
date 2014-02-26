@@ -15,7 +15,7 @@ trigger:
     - topic:  fedocal.meeting.update
   - any:
     - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '').startswith('fedora-meeting')"
-    - lambda: "msg.get('msg', {}).get('meeting', {}).get('calendar_name', '') == 'fedora-meeting'"
+    - lambda: "msg.get('msg', {}).get('meeting', {}).get('calendar_name', '').startswith('fedora-meeting')"
 
 criteria:
   datanommer:
