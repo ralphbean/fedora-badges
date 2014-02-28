@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+
+name:           Rock the Web!
+description:    You maintain the Fedora websites.  The Web is yours!
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/183
+image_url:      https://badges.fedoraproject.org/pngs/rock-the-web.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic: fas.group.member.sponsor
+  - lambda: msg.get('msg', {}).get('group', None) == 'gitfedora-web'
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.user.username)s"
+      operation: count
+      condition:
+        greater than or equal to: 1 
+
+recipient: "%(msg.user.username)s"
