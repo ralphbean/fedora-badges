@@ -1,0 +1,44 @@
+%YAML 1.2
+---
+
+name:           Helping Hand
+description:    You built a package owned by someone else.  It takes a village...
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/76
+image_url:      https://badges.fedoraproject.org/pngs/helping_hand.png
+issuer_id:      fedora-project
+
+
+# From the ticket:
+# Trigger from buildsys.build.state.change like all the Koji Success builds,
+# then check package builder and owner. Though having a quick look, I'm not
+# sure this info is in the fedmsg message itself, I think you get just the
+# build submitter; do we need to extend fedmsg-koji for this, or can we check
+# the package owner in pkgdb in the trigger/criteria?
+
+trigger:
+  all:
+  - topic:  buildsys.build.state.change
+  - lambda: msg.get('msg', {}).get('new', None) is 1
+
+# This is the most complex criteria we have to date.  The badge is only awarded
+# if the owner of the build is *not* an owner of the package in the pkgdb.
+criteria:
+  all:
+  - not:
+      pkgdb:
+        owner:
+          user: "%(msg.owner)s",
+          packages:
+          - "%(msg.name)s",
+  - datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.owner)s"  # The user that was created.
+      operation: count
+      condition:
+        greater than or equal to: 1 
+
+recipient: "%(msg.owner)s"
