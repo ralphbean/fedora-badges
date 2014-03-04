@@ -27,10 +27,10 @@ criteria:
   all:
   - not:
       pkgdb:
-        owner:
-          user: "%(msg.owner)s",
+        owns:
+          user: "%(msg.owner)s"
           packages:
-          - "%(msg.name)s",
+          - "%(msg.name)s"
   - datanommer:
       filter:
         topics:
