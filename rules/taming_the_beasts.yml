@@ -24,7 +24,7 @@ criteria:
         - "%(msg.owner)s"  # The user that was created.
         rows_per_page: 9999999
       operation:
-        lambda: len([msg for msg in query.all() if msg.msg['new'] is 1 and msg['msg'].get('instance', 'primary') != 'primary'])
+        lambda: len([msg for msg in query.all() if msg.msg['new'] is 1 and msg.msg.get('instance', 'primary') != 'primary'])
       condition:
         greater than or equal to: 100
 
