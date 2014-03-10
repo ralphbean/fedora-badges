@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+
+name:           Your call may be monitored for quality assurance
+description:    You are part of the IRC Support SIG, helping make our IRC channels better
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/246
+image_url:      https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  fas.group.member.sponsor
+  - lambda: msg.get('msg', {}).get('group', None) == 'irc-support-operators'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.user)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.user)s"
