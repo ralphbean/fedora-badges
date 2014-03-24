@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+
+# This is some metadata about the badge.
+name:           Taming the Beasts
+description:    You've done at least 100 builds on secondary archs.  Tame those beasts!
+creator:        karsten
+discussion:     https://fedorahosted.org/fedora-badges/ticket/242
+image_url:      https://badges.fedoraproject.org/pngs/package-tamer.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic:  buildsys.build.state.change
+  - lambda: msg.get('msg', {}).get('new', None) is 1
+  - lambda: msg.get('msg', {}).get('instance', 'primary') != 'primary'
+
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"     # The topic of the message that triggered us.
+        users:
+        - "%(msg.owner)s"  # The user that was created.
+        rows_per_page: 9999999
+      operation:
+        lambda: len([msg for msg in query.all() if msg.msg['new'] is 1 and msg.msg.get('instance', 'primary') != 'primary'])
+      condition:
+        greater than or equal to: 100
+
+recipient: "%(msg.owner)s"

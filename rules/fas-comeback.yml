@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+
+name:           Don't Call it a Comeback
+description:    You reactivated your Fedora account
+creator:        lmacken
+discussion:     https://fedorahosted.org/fedora-badges/ticket/79
+image_url:      https://badges.fedoraproject.org/pngs/dont-call-it-a-comeback.png
+issuer_id:      fedora-project
+
+trigger:
+  all:
+  - topic: fas.user.update
+  - lambda: "'status' in msg.get('msg', {}).get('fields', [])"
+
+# Once the check has been triggered, this defines what we
+# actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.user)s"
