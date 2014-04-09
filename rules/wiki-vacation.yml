@@ -10,8 +10,11 @@ issuer_id:      fedora-project
 
 trigger:
   all:
-   - topic: wiki.article.edit
-   - lambda: re.match(r'Vacation', msg.get('msg', {}).get('title', ''))
+  - any:
+    - topic:  fedocal.meeting.new
+    - topic:  fedocal.meeting.update
+  - any:
+    - lambda: "msg.get('msg', {}).get('meeting', {}).get('calendar_name', '').startswith('vacation')"
 
 criteria:
   datanommer:
@@ -19,9 +22,9 @@ criteria:
         topics:
         - "%(topic)s"     # The topic of the message that triggered us.
         users:
-        - "%(msg.user)s"
+        - "%(msg.agent)s"
       operation: count
       condition:
         greater than or equal to: 1
 
-recipient: "%(msg.user)s"
+recipient: "%(msg.agent)s"
