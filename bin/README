@@ -1,0 +1,15 @@
+
+Prerequisites
+-------------
+
+$ sudo yum install openscad admesh inkscape
+
+Usage
+-----
+
+$ ./export.sh free-mediaI 80
+
+Caveats
+-------
+
+- It matters what directory you are in.  You should actually cd in bin/.
