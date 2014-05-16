@@ -11,9 +11,9 @@ issuer_id:      fedora-project
 trigger:
   all:
   - topic: pkgdb.owner.update
-  - lambda: msg.get('msg', {}).get('package_listing', {}).get('owner', None) != None
-  - lambda: msg.get('msg', {}).get('package_listing', {}).get('owner', None) != 'orphan'
-  - lambda: msg.get('msg', {}).get('package_listing', {}).get('owner', None) == msg.get('msg', {}).get('agent', None)
+  - lambda: msg.get('msg', {}).get('package_listing', {}).get('point_of_contact', None) != None
+  - lambda: msg.get('msg', {}).get('package_listing', {}).get('point_of_contact', None) != 'orphan'
+  - lambda: msg.get('msg', {}).get('package_listing', {}).get('point_of_contact', None) == msg.get('msg', {}).get('agent', None)
 
 # This is really a throwaway check.  fedbadges demands that we have one.
 criteria:

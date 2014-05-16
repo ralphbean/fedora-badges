@@ -28,9 +28,9 @@ criteria:
         topics:
         - "%(topic)s"     # The topic of the message that triggered us.
         users:
-        - "%(msg.package_listing.owner)s"  # The owner of the newly created package.
+        - "%(msg.package_listing.point_of_contact)s"  # The owner of the newly created package.
       operation: count
       condition:
         greater than or equal to: 1 
 
-recipient: "%(msg.package_listing.owner)s"
+recipient: "%(msg.package_listing.point_of_contact)s"
