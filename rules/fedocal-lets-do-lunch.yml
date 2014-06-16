@@ -14,8 +14,9 @@ trigger:
     - topic:  fedocal.meeting.new
     - topic:  fedocal.meeting.update
   - any:
-    - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '').startswith('fedora-meeting')"
-    - lambda: "msg.get('msg', {}).get('meeting', {}).get('calendar_name', '').startswith('fedora-meeting')"
+    - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '') == 'fedora-meeting@irc.freenode.net'"
+    - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '') == 'fedora-meeting-1@irc.freenode.net'"
+    - lambda: "msg.get('msg', {}).get('meeting', {}).get('meeting_location', '') == 'fedora-meeting-2@irc.freenode.net'"
 
 criteria:
   datanommer:
