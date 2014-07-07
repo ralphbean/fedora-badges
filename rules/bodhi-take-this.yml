@@ -16,7 +16,7 @@ trigger:
   - any:
     - topic:  bodhi.update.request.stable
     - topic:  bodhi.update.request.testing
-  - lambda: "len(msg.get('msg', {}).get('update', {}).get('bugs', [])) > 1"
+  - lambda: "len(msg.get('msg', {}).get('update', {}).get('bugs', [])) > 0"
 
 # This criteria check could just be left empty since the trigger matching is all
 # that we need.  We'll do something trivial just because fedbadges demands a
