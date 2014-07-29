@@ -3,7 +3,7 @@
 
 # This is some metadata about the badge
 name:           All your $arch are belong to us (Koji Success V)
-description:    Succesfully completed 1000 koji builds.
+description:    Successfully completed 1000 koji builds.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.

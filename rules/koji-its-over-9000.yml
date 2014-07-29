@@ -2,7 +2,7 @@
 ---
 
 name:           Its over 9000 (Koji Success VI)
-description:    Succesfully completed 9001 koji builds?  Impossible.
+description:    Successfully completed 9001 koji builds?  Impossible.
 creator:        ralph
 discussion:     https://fedorahosted.org/fedora-badges/ticket/95
 image_url:      https://badges.fedoraproject.org/pngs/its-over-9000.png

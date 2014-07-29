@@ -3,7 +3,7 @@
 
 # This is some metadata about the badge
 name:           If you build it... (Koji Success IV)
-description:    Succesfully completed 250 koji builds.
+description:    Successfully completed 250 koji builds.
 creator:        ralph
 
 # This is a link to the discussion about adopting this as a for-real badge.
