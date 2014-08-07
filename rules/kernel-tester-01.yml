@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+
+name:           Science (Kernel Tester I)
+description:    You completed a run of the kernel regression test suite
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/155
+image_url:      https://badges.fedoraproject.org/pngs/kernel-tester.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic:  kerneltest.upload.new
+  - lambda: msg.get('msg', {}).get('test', {}).get('authenticated', False) is True
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.agent)s"
+      operation: count
+      condition:
+        greater than or equal to: 1
+
+recipient: "%(msg.agent)s"
