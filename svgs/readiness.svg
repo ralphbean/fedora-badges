@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg17812"
+   version="1.1"
+   inkscape:version="0.91pre0 r13343"
+   viewBox="0 0 256 256"
+   inkscape:export-filename="/home/gnokii/Documents/Fedora/badges/readiness.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="readiness.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="138.8955"
+     inkscape:cy="133.12178"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs17814">
+    <filter
+       id="filter2620-9-72"
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur2622-5-05"
+         stdDeviation="0.78000015"
+         inkscape:collect="always" />
+    </filter>
+    <clipPath
+       id="clipPath6657-8"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="fill:url(#linearGradient6661);fill-opacity:1;stroke:none"
+         id="path6659-2"
+         d="M 546.9996,150.50153 C 546.9996,132.55157 532.44906,118 514.4997,118 c -17.941,0 -32.48578,14.5396 -32.4988,32.47863 l -9e-4,-8.9e-4 0,25.15082 9e-4,9e-4 c 0.0101,4.07308 3.31294,7.37054 7.38849,7.37054 0.0114,0 0.0229,-8.9e-4 0.0349,-8.9e-4 l 0.002,8.9e-4 25.08586,0 0,0 c 17.9442,-0.007 32.48743,-14.55368 32.48743,-32.49847 z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient15857">
+      <stop
+         id="stop15859"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#71d2ed;stop-opacity:1;"
+         offset="0.5"
+         id="stop15867" />
+      <stop
+         id="stop15861"
+         offset="1"
+         style="stop-color:#00c7ff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4123-8-9-8">
+      <stop
+         id="stop4125-6-9-4"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop4155-5-2-6" />
+      <stop
+         id="stop4127-3-7-6"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <clipPath
+       id="clipPath16933-2"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         clip-path="none"
+         inkscape:connector-curvature="0"
+         d="m 1089.3409,1795.1414 c 0,-16.7572 -13.5836,-30.3419 -30.3402,-30.3419 -16.7489,0 -30.3272,13.5735 -30.3393,30.3205 l -9e-4,-9e-4 0,23.4796 9e-4,10e-4 c 0.01,3.8024 3.0927,6.8807 6.8975,6.8807 0.01,0 0.021,-9e-4 0.033,-9e-4 l 0,9e-4 23.4189,0 0,0 c 16.7518,-0.01 30.3287,-13.5865 30.3287,-30.3389 z"
+         id="path16935-5"
+         style="display:inline;fill:none;stroke:none" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient17735">
+      <stop
+         id="stop17737"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17739" />
+      <stop
+         id="stop17741"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17744">
+      <stop
+         id="stop17746"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17748" />
+      <stop
+         id="stop17750"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17753">
+      <stop
+         id="stop17755"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17757" />
+      <stop
+         id="stop17759"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17762">
+      <stop
+         id="stop17764"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17766" />
+      <stop
+         id="stop17768"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17771">
+      <stop
+         id="stop17773"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17775" />
+      <stop
+         id="stop17777"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17780">
+      <stop
+         id="stop17782"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17784" />
+      <stop
+         id="stop17786"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17789">
+      <stop
+         id="stop17791"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17793" />
+      <stop
+         id="stop17795"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17798">
+      <stop
+         id="stop17800"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17802" />
+      <stop
+         id="stop17804"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17807">
+      <stop
+         id="stop17809"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17811" />
+      <stop
+         id="stop17813"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17816">
+      <stop
+         id="stop17818"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17820" />
+      <stop
+         id="stop17822"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17825">
+      <stop
+         id="stop17827"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17829" />
+      <stop
+         id="stop17831"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient17834">
+      <stop
+         id="stop17836"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49152541;"
+         offset="0.5"
+         id="stop17838" />
+      <stop
+         id="stop17840"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath33869">
+      <path
+         clip-path="none"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/flock-2013-attendee.png"
+         style="display:inline;fill:#c4c7cc;fill-opacity:1;stroke:none"
+         id="path33871"
+         d="m 351.27926,879.68843 c 0,-39.92792 31.73612,-72.29636 70.88563,-72.29636 39.13173,0 70.85555,32.34168 70.88401,72.24531 l 0,0 0,55.94602 0,0 c -0.0222,9.05992 -7.22606,16.39504 -16.11533,16.39504 -0.0222,0 -0.0484,0 -0.0747,0 l 0,0 -54.7152,0 0,0 c -39.1382,-0.0208 -70.85878,-32.3732 -70.85878,-72.29001 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccccscccccc" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata17817">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-796.3622)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <path
+       style="display:inline;fill:#db3279;fill-opacity:1;stroke:#58595b;stroke-width:4.50271511;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2620-9-72)"
+       id="path6672-50"
+       d="m 134.00002,125.00183 c 0,-21.53997 -17.46062,-39.00185 -38.999836,-39.00185 -21.529216,0 -38.982968,17.44751 -38.998584,38.97439 l -0.0016,-10e-4 0,30.18098 0.0016,9.9e-4 c 0.01184,4.88773 3.975508,8.84465 8.866181,8.84465 0.01374,0 0.02745,-9.9e-4 0.04187,-9.9e-4 l 0.0024,9.9e-4 30.10304,0 0,0 c 21.533049,-0.009 38.984919,-17.46443 38.984919,-38.99816 z"
+       inkscape:connector-curvature="0"
+       transform="matrix(2.7350424,0,0,2.7350424,-131.82905,582.48198)"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/flock-2013-attendee.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:xx-small;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:currentColor;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
+       d="m 128.00019,810.99385 c -61.60424,0 -111.627639,49.85906 -112.051367,111.36757 -6.84e-4,0.0866 4.56e-4,0.16867 0,0.25597 a 5.4706309,5.4706309 0 0 0 -0.08662,0.25642 c -2.28e-4,0.057 2.28e-4,0.10941 0,0.17095 l 0,82.56454 a 5.4706309,5.4706309 0 0 0 0.427375,2.1366 5.4706309,5.4706309 0 0 0 0,0.084 c 1.176592,14.5554 12.753557,25.9903 27.35041,27.0089 0.09117,0 0.161833,0.08 0.256198,0.084 a 5.4706309,5.4706309 0 0 0 0.256653,0.087 5.4706309,5.4706309 0 0 0 1.452847,0.2564 5.4706309,5.4706309 0 0 0 0.08434,0 l 82.308114,0 a 5.4706309,5.4706309 0 0 0 0.0843,0 c 61.35032,-0.025 111.07923,-49.51896 111.88042,-110.68397 a 5.4706309,5.4706309 0 0 0 0.0843,-0.34213 c 4.6e-4,-0.0547 -6.8e-4,-0.10941 0,-0.16867 a 5.4706309,5.4706309 0 0 0 0.0843,-0.94022 c 0,-61.86887 -50.26934,-112.13707 -112.13684,-112.13707 z"
+       id="path6674-29"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/flock-2013-attendee.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="csccccscccccc"
+       inkscape:connector-curvature="0"
+       d="m 208.04697,924.36564 c 0,-44.2111 -35.83796,-80.0518 -80.04747,-80.0518 -44.189439,0 -80.013501,35.81107 -80.045639,79.99527 l 0,0 0,61.94751 0,0 c 0.02507,10.0318 8.160015,18.15378 18.198201,18.15378 0.02507,0 0.0547,0 0.08433,0 l 0,0 61.787043,0 0,0 c 44.19674,-0.023 80.01715,-35.84597 80.01715,-80.04476 z"
+       id="path6676-877"
+       style="display:inline;fill:#c4c7cc;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/flock-2013-attendee.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       clip-path="none" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 223.16283,924.36609 c 0,-52.55938 -42.60553,-95.16765 -95.16264,-95.16765 -52.533175,0 -95.121843,42.57339 -95.160136,95.10064 l 0,0 0,73.64414 0,0 c 0.02735,11.92618 9.700845,21.58118 21.634297,21.58118 0.03419,0 0.0661,0 0.10029,0 l 0.02279,0 73.454039,0 0,0 c 52.54024,-0.023 95.12435,-42.61419 95.12435,-95.15831 z"
+       id="path6678-51"
+       style="display:inline;fill:none;stroke:#db3279;stroke-width:12.31511593;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/flock-2013-attendee.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       clip-path="url(#clipPath33869)"
+       transform="matrix(-1.1292482,0,0,1.1072728,604.72844,-49.689436)"
+       id="g18767">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/flock-2013-attendee.png"
+         style="display:inline;fill:#ababab;fill-opacity:1;stroke:none"
+         id="path6676-9"
+         d="M 505.90861,884.36142 C 452.94578,875.76651 366.4307,871.35987 345.81322,879.84196 l 0,52.15366 0,14.25427 0,0 c 0.0228,10.03203 8.15955,18.15398 18.19797,18.15398 0.0251,0 0.0547,0 0.082,0 l 0,0 61.78727,0 0,0 c 44.19651,-0.0228 80.01693,-35.84594 80.01693,-80.0445 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccscccccc" />
+      <path
+         style="display:inline;fill:#8c8c8c;fill-opacity:1;stroke:none"
+         d="m 346.14395,877.55487 c -0.14588,5.06924 -0.24298,3.4557 -0.33393,8.57144 27.66018,-0.4374 145.92751,18.12093 145.89834,28.98127 -32.79141,10.7963 -107.91119,16.7392 -145.89834,17.79932 l 0,13.33046 c 0.0251,10.0318 8.17005,18.17518 18.20823,18.17518 0.0251,0 0.0365,0 0.0638,0 l 0.0342,0 61.76333,0 c 47.20637,-0.0342 79.70169,-40.35812 79.60847,-74.66779 -39.88401,-13.67942 -106.98099,-15.23894 -159.34526,-12.18988 z"
+         id="path4894"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccsscccc" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         d="m 345.76375,932.60398 -0.65736,-13.7886 c 0,0 80.0477,4.5696 139.45648,-9.01659 3.89812,1.14308 6.7017,3.0518 7.20156,5.36623 -11.47599,5.95476 -99.3614,21.08931 -146.00068,17.43896 z"
+         id="path20658"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:1;stroke:none"
+         d="m 375.0655,919.52493 -13.68763,13.56842 10.34157,0.4235 12.06543,-14.18293 z"
+         id="path20660-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:1;stroke:none"
+         d="m 441.35605,916.54675 -7.67338,10.79561 -6.98388,0.45496 8.24686,-10.67731 z"
+         id="path20731"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:1;stroke:none"
+         d="m 447.71676,915.36469 -8.81965,10.90411 8.55114,-0.9514 9.09637,-10.96884 z"
+         id="path20660-4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:1;stroke:none"
+         d="m 463.57796,913.74545 -9.73276,10.22304 8.92223,-1.70608 8.5165,-9.82302 z"
+         id="path20660-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#e1e1e1;fill-opacity:1;stroke:#4c4c4c;stroke-width:2.5379374;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 348.1101,871.86885 c 0,0 0.73759,-9.23632 5.54174,-18.71196 69.6569,-11.84775 142.76243,-2.64358 142.76243,-2.64358 0,0 9.3072,19.80286 8.21951,37.16454 -36.64759,-9.02137 -137.57854,-18.77259 -156.52368,-15.809 z"
+         id="path5239-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 445.72348,929.98069 2.69691,-14.46556 c 0,0 8.10964,-0.28788 15.94759,-0.37381 4.72027,-0.0501 3.73742,-5.85561 3.73742,-5.85561 l -42.60941,0 -1.94678,5.98895 17.89437,0.0365 -2.69714,15.04178 z"
+         id="path36242"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccscccccc" />
+      <path
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+         d="m 433.93386,910.49809 -1.50573,1.93538 c 0,0 2.38099,-0.0251 7.88626,-0.12081 3.90633,-0.0684 2.40994,0.43467 -0.14359,16.35172 0.71274,0 1.99852,0.082 1.99852,0.082 0,0 2.16559,-9.40726 3.7413,-16.21472 6.93145,-0.0684 17.74712,-0.0752 18.06212,-0.098 3.00872,-0.18919 3.2264,-2.22235 3.2264,-2.22235 z"
+         id="path4846"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccscccscc" />
+      <path
+         style="fill:#9c9c9c;fill-opacity:1;stroke:#595959;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 408.45774,898.16894 c -2.29415,0 -11.23848,6.22942 -11.09716,11.83043 0.15727,-5.17956 -1.23335,-6.42955 -4.63024,-5.86929 -10.12708,1.66962 2.01858,14.15809 5.74711,13.44101 3.72785,-0.71708 9.43143,-3.84683 9.86154,-5.99784 0.43011,-2.15078 0.11852,-13.40431 0.11852,-13.40431 z"
+         id="path36143"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccsssc" />
+      <path
+         style="fill:#9c9c9c;fill-opacity:1;stroke:#595959;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 374.59482,938.75909 c -5.35963,-0.56892 -10.30852,-14.6935 -2.99573,-14.6935 5.28532,0 6.06417,6.05072 6.06417,6.05072 0,0 6.33108,-8.21289 11.19859,-8.75127 4.34191,-0.4798 18.26203,-0.40869 17.108,7.95054 -1.13557,8.22475 -11.42835,4.73828 -16.88986,3.53662 -2.54648,3.84159 -10.1558,6.36709 -14.48517,5.90689 z"
+         id="path36038"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sscsscs" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#595959;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 398.94654,917.18269 c -3.78051,11.91544 -0.55912,20.69567 7.61343,21.26915 8.17323,0.57393 26.78901,3.18172 24.72074,-12.96987 -2.00809,-15.68706 8.31683,-21.22151 1.57753,-27.67362 -3.81128,-3.64898 -12.04469,-4.15819 -14.48221,-3.44134 -13.52123,4.65965 -16.33621,13.0656 -19.42949,22.81568 z"
+         id="path36032"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sssscs" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path5252-1"
+         d="m 347.45274,876.66001 c 0,0 0.41849,-4.7727 1.62858,-10.12594 69.65645,-11.84798 152.49473,0.0387 152.49473,0.0387 0,0 3.70848,14.03522 2.90706,22.50682 C 454.87318,873.9166 360.18806,876.88817 347.45274,876.66001 Z"
+         style="fill:#4c4c4c;fill-opacity:1;stroke:#4c4c4c;stroke-width:2.5379374;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g30361"
+         transform="matrix(-0.4051509,0.1137463,0.1137463,0.4051509,379.84914,518.04627)">
+        <g
+           id="g23469-9-0-3"
+           transform="matrix(2.6860502,0,0,2.5404437,-491.9648,-244.74487)"
+           style="fill:#919191;fill-opacity:1;stroke:#595959;stroke-width:1.92396104;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+          <path
+             style="fill:#919191;fill-opacity:1;stroke:#595959;stroke-width:1.92396104;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 249.42638,446.37211 c 0,0 2.72609,-1.42202 2.71099,-7.91212 -0.005,-1.98854 -0.25186,-2.82844 -1.05904,-4.98376 -28.35448,-5.1626 -10.74594,14.14973 -1.65195,12.89588 z"
+             id="path23337-2-1-1"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cscc" />
+        </g>
+        <g
+           id="g23469-9-3"
+           transform="matrix(2.5230783,0,0,2.5230783,-352.59304,-231.94777)">
+          <path
+             sodipodi:nodetypes="csccssc"
+             inkscape:connector-curvature="0"
+             id="path23337-2-8"
+             d="m 203.37872,427.41514 c 3.30724,-0.0489 9.20687,2.42983 9.08466,9.14714 -0.11561,6.35489 -2.82464,7.26634 -2.82464,7.26634 -3.31093,1.30945 -7.31662,2.82732 -13.89416,-1.45048 0,0 -1.6212,-1.5616 -1.60318,-6.48905 0.0195,-5.3526 5.65341,-8.42092 9.23734,-8.47395 z"
+             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+          <ellipse
+             transform="matrix(-1.1329195,-0.25767877,-0.4887658,0.96750021,720.64763,84.800258)"
+             id="path23421-4-7"
+             style="fill:#9c9c9c;fill-opacity:1;fill-rule:evenodd"
+             cx="267.50101"
+             cy="434.84329"
+             rx="1.7046325"
+             ry="2.4622469"
+             d="m 269.20564,434.84329 a 1.7046325,2.4622469 0 0 1 -1.70463,2.46225 1.7046325,2.4622469 0 0 1 -1.70464,-2.46225 1.7046325,2.4622469 0 0 1 1.70464,-2.46224 1.7046325,2.4622469 0 0 1 1.70463,2.46224 z" />
+          <ellipse
+             transform="matrix(-1.2091915,0,0,1.2091915,536.53406,-96.103383)"
+             id="path23423-1-1"
+             style="fill:#9c9c9c;fill-opacity:1;fill-rule:evenodd"
+             cx="270.87872"
+             cy="441.94595"
+             rx="0.8523162"
+             ry="0.53664356"
+             d="m 271.73104,441.94595 a 0.8523162,0.53664356 0 0 1 -0.85232,0.53665 0.8523162,0.53664356 0 0 1 -0.85231,-0.53665 0.8523162,0.53664356 0 0 1 0.85231,-0.53664 0.8523162,0.53664356 0 0 1 0.85232,0.53664 z" />
+          <path
+             sodipodi:nodetypes="csccc"
+             inkscape:connector-curvature="0"
+             id="path23443-1-6"
+             d="m 212.36205,434.18474 c -1.28799,0.15527 -2.02274,0.60916 -2.07823,1.38028 -0.0832,1.15618 0.84506,3.18452 1.98955,3.26186 0.59582,-1.82602 0.1332,-4.23383 0.1332,-4.23383 z"
+             style="fill:#9c9c9c;fill-opacity:1" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             inkscape:connector-curvature="0"
+             id="path23445-5-1"
+             d="m 206.68119,440.21964 c 0,0 1.13279,0.64344 2.21242,0.64344 1.09738,-0.0945 1.4846,-0.0133 1.58942,-0.84008 -1.60908,0.002 -2.42108,0.0933 -3.80184,0.19677 z"
+             style="fill:#868686;fill-opacity:1" />
+          <path
+             sodipodi:nodetypes="csscscscc"
+             inkscape:connector-curvature="0"
+             id="path23447-9-95"
+             d="m 198.60897,432.05525 c -0.88277,0.26587 -1.37267,0.17787 -1.76494,-0.15731 -0.45849,-0.39167 -0.95519,-0.77461 -1.50795,-1.57431 -0.27386,-0.39617 -0.85964,-1.10835 -0.27129,-1.72052 1.25618,-1.11803 2.98573,-2.08261 4.0543,-2.52022 0.85507,-0.35015 1.17733,0.40566 1.62145,1.03494 0.54869,1.14541 0.36514,2.13393 0.43726,2.71536 0.0964,0.77669 -0.35934,0.9685 -0.35934,0.9685 -0.91866,0.70212 -1.07466,0.81801 -2.20949,1.25356 z"
+             style="fill:#868686;fill-opacity:1;stroke:none" />
+          <path
+             sodipodi:nodetypes="cscsccc"
+             inkscape:connector-curvature="0"
+             id="path23447-1-7-6"
+             d="m 206.88588,428.09084 c 0.09,-0.33776 0.21858,-0.7107 0.43063,-1.1467 0.21063,-0.43313 0.54331,-1.29316 1.3655,-1.08131 1.59083,0.54522 3.28047,1.5781 4.18645,2.29403 0.72496,0.5729 0.22486,1.22479 -0.10505,1.9207 -0.42537,0.60768 -0.92676,0.9715 -1.36412,1.23845 -2.05874,-2.06385 -1.8189,-2.13613 -4.51326,-3.22517 z"
+             style="fill:#868686;fill-opacity:1;stroke:none" />
+        </g>
+      </g>
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 414.8727,873.90293 c -6.28663,0.0798 -14.16059,5.98803 -13.40134,13.88661 5.63063,-0.31318 11.71873,-3.11015 15.25854,-5.69036 1.86336,3.64534 1.74734,6.17039 -0.359,8.27649 -2.09675,2.09699 -8.07773,4.6405 -12.31546,4.17392 3.04382,4.9384 6.15693,6.75252 6.15693,6.75252 0,0 13.12418,-1.75827 15.63167,-13.58597 0.3239,-8.91105 -4.04718,-13.25136 -9.71566,-13.78016 -0.40253,-0.0342 -0.83674,-0.0365 -1.25568,-0.0342 z"
+         id="path36028"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sccscccss" />
+      <path
+         style="fill:#9c9c9c;fill-opacity:1;stroke:#595959;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 429.99038,926.05568 c 0,0 -9.7054,-7.135 -14.72427,-5.84444 -5.01818,1.29101 -12.40026,8.0718 -12.40026,8.0718 0,0 -0.54909,-4.80848 -5.28076,-4.09186 -6.10246,0.92496 -5.44875,14.05232 4.01482,14.33884 9.46357,0.28628 14.92234,-6.08879 14.92234,-6.08879 0,0 5.15175,5.51531 11.03038,3.93801 5.87886,-1.57753 3.1546,-10.0375 2.43775,-10.32356 z"
+         id="path36036"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cscsscsc" />
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 366.68508,931.14543 c -2.56881,-0.12764 -4.4349,-0.20058 -8.24891,-0.21881 -3.73925,1.9796 -8.24869,13.85789 0.21881,20.23706 2.8241,0.0456 6.68894,0.17323 9.20281,0.0934 7.79555,-0.25391 7.24167,-20.79117 0.59878,-20.25347 z"
+         id="path36183"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccssc" />
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.58621073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 398.15151,905.231 c -0.23888,0 -0.44903,0.0228 -0.69406,0.0342 -3.41102,0.22566 -8.58648,2.01197 -7.6009,9.02138 1.49912,10.65748 20.43378,11.22184 20.19148,2.57792 -0.0843,-3.04268 -4.49553,-11.57514 -11.89652,-11.63235 z m -0.19603,3.18355 c 5.63224,-0.37404 8.64757,5.5634 8.69976,7.82039 0.12309,5.3496 -13.20965,5.80797 -14.28686,-1.85082 -0.70796,-5.03619 3.13591,-5.80683 5.5871,-5.96957 z"
+         id="path36145"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccscccssss" />
+      <path
+         style="fill:#9c9c9c;fill-opacity:1;stroke:#595959;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 428.12657,895.80094 c -7.02628,0.14132 -1.14696,10.75413 -2.72426,11.90086 -1.57753,1.14696 -10.31672,-1.34959 -14.23034,-1.31495 -15.71395,0.13676 -1.05624,13.73777 3.94804,7.85869 0,0 12.34304,5.3186 15.73059,3.92364 4.87527,-2.00741 9.03346,-22.22487 -2.72403,-22.36824 z"
+         id="path36034"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csscsc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path36196"
+         d="m 366.68508,931.14543 c -2.56881,-0.12764 -4.4349,-0.20058 -8.24891,-0.21881 -3.73925,1.9796 -8.24869,13.85789 0.21881,20.23706 2.8241,0.0456 4.96507,-0.0273 7.47872,-0.10941 -7.04359,-4.60995 -5.15722,-17.4834 0.55024,-19.90702 z"
+         style="fill:#c8c8c8;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 402.43597,916.46561 c 0.34646,-9.59668 -3.64557,-10.33382 -11.05796,-10.03682 -9.5789,4.58853 -13.55748,23.18493 -14.30442,27.05045 -9.35484,0.0228 -7.46778,5.45445 -11.65765,5.54311 -3.6059,0.0752 -6.4047,-5.29056 -9.19369,-5.29056 -2.78899,0 -4.70546,2.44755 -4.70546,2.44755 0,0 -2.65291,9.77492 -0.71275,11.06525 1.93972,1.29056 65.66875,1.77036 67.18861,0.61269 3.1277,-2.27842 -2.18109,-15.61754 -17.16293,-10.74364 -2.13209,0.6936 -3.72899,3.44635 -10.88245,2.43775 0,0 -3.39643,-5.03619 -9.09408,-5.59212 8.00251,-11.18446 15.13933,-7.5895 21.58278,-17.49366 z"
+         id="path36181"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccsscscsccc" />
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 424.23939,944.66963 c 0,0 12.6731,-0.098 16.42511,-0.91242 3.7511,-0.81098 1.01385,-1.72408 5.67759,-1.92649 4.66398,-0.20286 9.42915,0.20286 9.42915,0.20286 l 0.30475,-13.68717 c 0,0 -13.58643,-0.40572 -16.93249,-0.30429 -3.34583,0.098 -3.75133,2.33176 -6.48858,2.23033 -2.73816,-0.098 -8.61839,6.38806 -8.61839,6.38806 0.0228,3.02969 1.09727,5.06103 0.20286,8.00958 z"
+         id="path36240"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cssccsscc" />
+      <path
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+         d="m 429.16845,933.46625 c 0,0 2.15055,-2.15078 3.58448,-2.29392 3.85276,-0.38544 2.47148,-1.94063 6.81088,-2.00787 4.93225,-0.0752 6.34703,0 11.18446,0 0,0 -0.44948,2.0318 -0.50213,3.2264 -3.65674,0.1436 -6.48083,0.0615 -8.81829,0 -4.18577,-0.10713 -3.58494,2.29415 -6.30897,2.29415 -1.22833,0 -5.61605,-0.057 -5.61605,-0.057 z"
+         id="path5274-6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cssccsscc" />
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 422.94929,931.34533 c -2.71423,-0.13904 -4.68585,-0.21198 -8.71549,-0.23363 -3.95054,2.09174 -8.71549,14.64153 0.23363,21.38174 2.98388,0.0456 6.76643,0.0707 9.42277,-0.0228 8.23592,-0.26805 8.39501,-21.13421 1.35415,-21.13444 z"
+         id="path36183-4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccssc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path36196-7"
+         d="m 422.94929,931.34533 c -2.71423,-0.13904 -4.68585,-0.21198 -8.71549,-0.23363 -3.95054,2.09174 -8.71549,14.64153 0.23363,21.38174 2.98388,0.0456 5.24566,-0.0296 7.90154,-0.11624 -7.44225,-4.87071 -5.44875,-18.47263 0.58146,-21.03301 z"
+         style="fill:#c8c8c8;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#787878;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 468.5191,922.10765 c -3.44727,-0.14816 -5.9518,-0.23364 -11.07027,-0.25438 -5.01818,2.29164 -11.07004,16.04081 0.2954,23.42426 3.78985,0.0479 7.98086,0.27147 11.35519,0.17779 10.46077,-0.29313 9.37421,-23.34676 0.43375,-23.34676 z"
+         id="path36183-4-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccssc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path36196-7-7"
+         d="m 468.5191,922.10765 c -3.44727,-0.14816 -5.9518,-0.23364 -11.07027,-0.25438 -5.01818,2.66317 -11.07004,16.61498 0.2954,23.42426 3.78985,0.0479 6.66318,-0.0342 10.03682,-0.12764 -9.45331,-5.33638 -6.92142,-20.23752 0.73805,-23.0427 z"
+         style="fill:#c8c8c8;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.11494803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+         d="m 377.98829,934.43109 c 0,0 3.41513,-21.51144 13.71407,-27.08236 4.44538,0.1436 5.24566,0.13676 7.37957,1.08747 -9.30173,6.10383 -16.03375,14.35114 -21.09364,25.99489 z"
+         id="path3568"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+         d="m 352.51605,936.76376 c 0,0 1.65298,-2.02838 3.66016,-2.02838 -1.59759,1.64864 -2.30965,2.06895 -2.21301,4.83789 3.96809,1.15471 7.72877,0.60562 11.3096,0.41666 5.32293,-0.0957 2.84506,-5.6181 12.01528,-5.50847 -4.75287,0.5124 -4.07021,4.35877 -5.57548,5.8253 3.17375,0.71685 7.61343,1.72637 17.53104,0.26372 2.34977,0.21653 4.83242,0.39728 7.62574,-0.3109 3.7299,-0.94638 2.3598,-2.74797 9.98075,-3.11996 -2.46715,0.8445 -4.34054,1.66255 -4.95755,3.52659 2.12023,0.79936 6.35204,0.0228 6.35204,0.0228 l 0.0502,2.6071 c 0,0 -7.12565,0.83401 -11.57081,0.97738 -4.44493,0.1436 -41.20557,-0.98125 -45.33458,-2.07875 0.31591,-3.93709 1.12622,-5.42299 1.12622,-5.42299 z"
+         id="path4848"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccsccccsccc" />
+      <path
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.12507033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 424.11152,938.31485 c -1.2917,0.0456 -2.03294,1.53855 -2.07898,3.16485 -0.1436,5.03482 4.01482,4.70706 4.01482,0 0,-1.78517 -0.70089,-3.20656 -1.93584,-3.16485 z"
+         id="path4850"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ssss" />
+      <path
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.32811594px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 469.82926,929.34407 c -1.5251,0.0502 -2.40014,1.81595 -2.45461,3.73583 -0.16868,5.94314 4.73919,5.55633 4.73919,0 0,-2.10747 -0.82695,-3.78574 -2.28458,-3.73583 z"
+         id="path4850-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ssss" />
+      <g
+         style="display:inline;fill:#b2b2b2;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(0.99155235,0.10194345,-0.10194345,0.99155235,-543.63298,270.03173)"
+         id="g6346-1">
+        <g
+           id="g6327-5"
+           style="fill:#b2b2b2;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#b2b2b2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6"
+             style="fill:#b2b2b2;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a0a0a0;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(0.99155235,0.10194345,-0.10194345,0.99155235,-530.90769,264.62743)"
+         id="g6346-1-8">
+        <g
+           id="g6327-5-0"
+           style="fill:#a0a0a0;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-5"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-9"
+             style="fill:#a0a0a0;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0882914,-0.21282659,0.21282659,1.0882914,-762.14792,523.89755)"
+         id="g6346-1-7">
+        <g
+           id="g6327-5-07"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#b2b2b2;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0882914,-0.21282659,0.21282659,1.0882914,-748.03292,517.98769)"
+         id="g6346-1-7-0">
+        <g
+           id="g6327-5-07-2"
+           style="fill:#b2b2b2;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#b2b2b2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0"
+             style="fill:#b2b2b2;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0882914,-0.21282659,0.21282659,1.0882914,-729.5628,521.28611)"
+         id="g6346-1-7-0-2">
+        <g
+           id="g6327-5-07-2-9"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-7"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-3"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.1053173,-0.21615613,0.21615613,1.1053173,-757.68544,522.05676)"
+         id="g6346-1-7-0-0">
+        <g
+           id="g6327-5-07-2-4"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-9"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-0"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.1063725,0.07492136,-0.07492136,1.1063725,-652.71597,243.62473)"
+         id="g6346-1-7-0-06"
+         inkscape:transform-center-x="-1.3344636"
+         inkscape:transform-center-y="2.0462196">
+        <g
+           id="g6327-5-07-2-3"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-6"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-009"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a0a0a0;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0245593,0.18716854,-0.18716854,1.0245593,-450.28263,164.11975)"
+         id="g6346-1-7-0-01">
+        <g
+           id="g6327-5-07-2-35"
+           style="fill:#a0a0a0;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-3"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-31"
+             style="fill:#a0a0a0;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0882914,-0.21282659,0.21282659,1.0882914,-712.94486,523.59485)"
+         id="g6346-1-7-0-31">
+        <g
+           id="g6327-5-07-2-0"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-10"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-79"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.2137146,0.19789876,-0.19789876,1.2137146,-644.40962,72.998593)"
+         id="g6346-1-7-0-5">
+        <g
+           id="g6327-5-07-2-49"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-75"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-00"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0882914,-0.21282659,0.21282659,1.0882914,-691.30395,520.62625)"
+         id="g6346-1-7-0-9">
+        <g
+           id="g6327-5-07-2-17"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-5"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-5"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#b2b2b2;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.1897757,-0.23267289,0.23267289,1.1897757,-809.95991,500.44092)"
+         id="g6346-1-7-0-4">
+        <g
+           id="g6327-5-07-2-5"
+           style="fill:#b2b2b2;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-76"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#b2b2b2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-78"
+             style="fill:#b2b2b2;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#b2b2b2;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0045711,-0.19645418,0.19645418,1.0045711,-586.17355,547.98805)"
+         id="g6346-1-7-0-55">
+        <g
+           id="g6327-5-07-2-43"
+           style="fill:#b2b2b2;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-50"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#b2b2b2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-6"
+             style="fill:#b2b2b2;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.1151986,0.42082909,-0.42082909,1.1151986,-403.11661,-93.187862)"
+         id="g6346-1-7-0-32">
+        <g
+           id="g6327-5-07-2-03"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-4"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-51"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.0450352,0.37091097,-0.37091097,1.0450352,-335.99091,-16.093727)"
+         id="g6346-1-7-0-8">
+        <g
+           id="g6327-5-07-2-99"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-0"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-2"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a0a0a0;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.2043136,-0.05168193,0.05168193,1.2043136,-700.98177,323.18876)"
+         id="g6346-1-7-0-41">
+        <g
+           id="g6327-5-07-2-95"
+           style="fill:#a0a0a0;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-92"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-9"
+             style="fill:#a0a0a0;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a4a4a4;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.104473,-0.35226304,0.35226304,1.104473,-873.48723,661.61284)"
+         id="g6346-1-7-0-06-4">
+        <g
+           id="g6327-5-07-2-3-7"
+           style="fill:#a4a4a4;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-6-3"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a4a4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-009-3"
+             style="fill:#a4a4a4;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         style="display:inline;fill:#a0a0a0;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/fas-crypto-panda.png"
+         transform="matrix(1.2247845,-0.23951919,0.23951919,1.2247845,-900.14198,491.46764)"
+         id="g6346-1-7-0-06-6">
+        <g
+           id="g6327-5-07-2-3-4"
+           style="fill:#a0a0a0;fill-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6308-9-3-0-6-4"
+             d="m 958.82375,481.9208 c -0.2667,3.6e-4 -0.5549,0.10479 -0.7551,0.2887 l -1.1325,1.04374 c -0.4003,0.36784 -0.5327,1.10806 -0.067,1.38795 l 0.966,0.56629 c 0.058,0.0347 0.1183,0.0602 0.1777,0.0888 -0.4945,0.77276 -0.7883,1.67851 -0.7883,2.65377 0,2.79636 2.3464,5.06325 5.2409,5.06325 2.8944,0 5.2409,-2.26689 5.2409,-5.06325 0,-0.93322 -0.2659,-1.80313 -0.7218,-2.55383 0.137,-0.0403 0.2787,-0.10936 0.4109,-0.18876 l 0.9549,-0.56629 c 0.466,-0.27989 0.3448,-1.02011 -0.055,-1.38795 l -1.1437,-1.04374 c -0.4003,-0.36783 -1.1483,-0.43247 -1.388,0.0555 l -0.4885,0.99933 c -0.055,0.11184 -0.1025,0.23059 -0.1333,0.34421 -0.7844,-0.45219 -1.696,-0.72173 -2.6759,-0.72173 -0.883,0 -1.7129,0.21589 -2.4428,0.58849 -0.025,-0.0685 -0.045,-0.14365 -0.078,-0.21097 l -0.4885,-0.99933 c -0.1198,-0.24399 -0.3663,-0.34459 -0.6329,-0.34421 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a0a0a0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71063203;marker:none;enable-background:accumulate" />
+          <g
+             transform="translate(-2,1)"
+             id="g6274-6-5-0-009-6"
+             style="fill:#a0a0a0;fill-opacity:1" />
+        </g>
+      </g>
+      <path
+         style="fill:#a4a4a4;fill-opacity:1;stroke:none"
+         d="m 357.42369,919.3223 -11.69253,10.83231 0.0342,2.73611 6.38738,0.21881 13.38356,-13.67577 z"
+         id="path20660"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:1;stroke:none"
+         d="m 477.82311,911.21197 -7.82039,10.0758 7.50425,-1.86792 7.00644,-9.83031 z"
+         id="path20660-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:1;stroke:none"
+         d="m 485.27539,917.59844 3.34584,-6.08354 c 0,0 2.79514,1.47245 3.34606,3.54915 -2.43319,1.521 -6.6919,2.53439 -6.6919,2.53439 z"
+         id="path20729"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+         d="m 412.50014,875.28739 c 0,0 -9.78655,2.54488 -10.14531,11.36317 2.86763,-0.35854 2.82523,-0.5124 4.30155,-0.86022 0.098,-4.8657 5.84376,-10.50295 5.84376,-10.50295 z"
+         id="path24801"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+         d="m 406.08313,895.648 c 0,0 1.61309,-0.0342 3.72785,-0.75264 1.39176,1.92604 4.62431,4.08662 4.62431,4.08662 0,0 -2.09721,1.00496 -3.94279,1.29033 -2.35706,-1.39746 -4.40937,-4.62431 -4.40937,-4.62431 z"
+         id="path24803"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/flock-2013-attendee.png"
+       style="display:inline;fill:#ffffff;fill-opacity:0.38938054;stroke:none"
+       id="path14250-8"
+       d="m 208.04656,924.3657 c 0,-44.2111 -35.83796,-80.0518 -80.04748,-80.0518 -44.189438,0 -80.013498,35.81107 -80.045638,79.99527 l 0,0 0,61.94751 0,0 c 0.0251,10.0318 8.16001,18.15382 18.1982,18.15382 0.0251,0 0.0547,0 0.0843,0 l 0,0 61.787048,0 0,0 c 44.19675,-0.023 80.01716,-35.84601 80.01716,-80.0448 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccscccccc" />
+    <path
+       transform="matrix(2.24001,0,0,2.24001,-1031.63,594.25041)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/askbot-curious-penguin-02.png"
+       clip-path="url(#clipPath6657-8)"
+       sodipodi:nodetypes="szcczs"
+       inkscape:connector-curvature="0"
+       id="path6677-5"
+       d="m 497.37936,145.23264 c -6.8188,0 -11.91301,3.86153 -13.43284,10.94227 -1.51983,7.08073 -2.39646,18.18563 -3.53962,28.00173 l 35.75543,-0.18105 c -1.00619,-9.82285 -3.62536,-20.59669 -5.16908,-28.00173 -1.54371,-7.40505 -6.79509,-10.76122 -13.61389,-10.76122 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#db3279;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;enable-background:accumulate" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+       d="m 82.855476,926.766 c -14.006279,0 -21.224245,8.16754 -24.346249,22.71151 -3.122003,14.54443 -5.578897,30.68371 -8.728936,45.01662 0.10257,0.49826 2.203432,7.28087 11.292275,9.06147 5.238593,1.0257 6.007412,0.7164 17.648198,0.7424 14.90502,-0.2583 38.152396,0.059 38.152396,0.059 -2.06689,-20.17647 -6.49997,-40.07597 -9.67121,-55.28619 -3.17055,-15.21045 -10.340424,-22.30625 -24.346474,-22.30625 z"
+       id="path11704"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czcscczsc"
+       clip-path="none"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/askbot-curious-penguin-02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/askbot-curious-penguin-02.png"
+       clip-path="none"
+       transform="matrix(2.0415409,0,0,1.3594454,-579.60258,755.95478)"
+       id="g6679-3">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6681-0"
+         transform="matrix(0.56559534,0,0,0.81992624,275.82305,22.143177)"
+         d="m 85.875,148.8125 c -6.477403,0 -11.79688,3.24368 -12.21875,7.34375 -0.0027,0.01 0.0027,0.0213 0,0.0312 -0.197217,0.72432 -0.3125,1.57699 -0.3125,2.5625 0,7.88407 6.053527,18.4375 12.53125,18.4375 6.477723,0 12.5,-10.55343 12.5,-18.4375 0,-0.98551 -0.115283,-1.83818 -0.3125,-2.5625 -9.9e-4,-0.0102 0.0011,-0.021 0,-0.0312 -0.42187,-4.10007 -5.710097,-7.34375 -12.1875,-7.34375 z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;enable-background:accumulate" />
+      <path
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+         d="m 319.13712,150.76409 c 0.1592,2.96627 1.29894,14.09682 5.24437,14.09682 3.94544,0 5.10365,-11.13034 5.26264,-14.09682 l -5.25351,2 z"
+         id="path6685-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="czccc" />
+    </g>
+    <ellipse
+       d="m 77.407271,943.09631 a 2.8262999,4.755836 0 0 1 -2.8263,4.75584 2.8262999,4.755836 0 0 1 -2.8263,-4.75584 2.8262999,4.755836 0 0 1 2.8263,-4.75583 2.8262999,4.755836 0 0 1 2.8263,4.75583 z"
+       ry="4.755836"
+       rx="2.8262999"
+       cy="943.09631"
+       cx="74.580971"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/askbot-curious-penguin-02.png"
+       clip-path="none"
+       id="path6687-9"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;enable-background:accumulate" />
+    <ellipse
+       d="m 93.84104,943.09631 a 2.8262999,4.755836 0 0 1 -2.8263,4.75584 2.8262999,4.755836 0 0 1 -2.8263,-4.75584 2.8262999,4.755836 0 0 1 2.8263,-4.75583 2.8262999,4.755836 0 0 1 2.8263,4.75583 z"
+       ry="4.755836"
+       rx="2.8262999"
+       cy="943.09631"
+       cx="91.01474"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/duffy/Documents/Work/Projects/FedBadges/Badges/askbot-curious-penguin-02.png"
+       clip-path="none"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+       id="path6689-1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6691-3"
+       d="m 154.91844,873.19254 c -19.36636,0 -35.03564,10.34316 -35.03564,23.10264 0,5.32362 2.72107,10.22099 7.31301,14.12732 l -8.9416,14.55992 18.81408,-8.80939 c 5.23244,2.04524 11.32533,3.22457 17.85015,3.22457 19.36704,0 35.0696,-10.34316 35.0696,-23.10242 0,-12.75948 -15.70256,-23.10264 -35.0696,-23.10264 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#e4649a;stroke-width:5.2154603;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:currentColor;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 161.9629,881.14805 a 1.0001,1.0001 0 0 0 -1.41145,-0.0883 l -16.28641,14.3686 a 1.0001,1.0001 0 0 0 -0.0883,1.41146 l 14.67484,16.63352 a 1.0001,1.0001 0 0 0 1.41146,0.0883 l 16.28641,-14.3686 a 1.0001,1.0001 0 0 0 0.0883,-1.41146 L 161.9629,881.14805 Z m -0.83818,2.07303 13.3517,15.13377 -14.78666,13.04545 -13.35169,-15.13377 14.78665,-13.04545 z"
+       id="rect18911"
+       inkscape:connector-curvature="0" />
+    <g
+       style="fill:#e4649a;fill-opacity:1"
+       transform="matrix(0.45099955,0.51119529,-0.52424209,0.46251003,471.49204,362.28264)"
+       id="g18904">
+      <rect
+         style="opacity:1;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect18894"
+         width="11.111678"
+         height="10.606602"
+         x="269.71072"
+         y="824.57281" />
+      <rect
+         y="834.57281"
+         x="280.78217"
+         height="10.606602"
+         width="11.111678"
+         id="rect18896"
+         style="opacity:1;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect18898"
+         width="11.111678"
+         height="10.606602"
+         x="291.49646"
+         y="844.57281" />
+      <rect
+         y="845.28711"
+         x="270.42502"
+         height="10.606602"
+         width="11.111678"
+         id="rect18900"
+         style="opacity:1;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect18902"
+         width="11.111678"
+         height="10.606602"
+         x="291.49646"
+         y="824.92999" />
+    </g>
+    <rect
+       transform="matrix(0.66157618,0.74987796,-0.74987796,0.66157618,0,0)"
+       y="461.09354"
+       x="766.67102"
+       height="39.300323"
+       width="2.2915645"
+       id="rect18922"
+       style="opacity:1;fill:#e4649a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
