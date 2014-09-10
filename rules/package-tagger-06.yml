@@ -2,10 +2,10 @@
 ---
 
 name:           Chief Package Tagger (Package Tagger VI)
-description:    Added 1500 new tags to packages in Fedora Tagger.
+description:    Added 1250 new tags to packages in Fedora Tagger.
 creator:        ralph
 discussion:     https://fedorahosted.org/fedora-badges/ticket/299
-image_url:      https://badges.fedoraproject.org/pngs/tagger-tags-1500_v2.png
+image_url:      https://badges.fedoraproject.org/pngs/tagger-tags-1250_v2.png
 issuer_id:      fedora-project
 
 # We'll perform our more costly check (defined below) only when
@@ -25,6 +25,6 @@ criteria:
         - "%(msg.user.username)s"
       operation: count
       condition:
-        greater than or equal to: 1500
+        greater than or equal to: 1250
 
 recipient: "%(msg.user.username)s"
