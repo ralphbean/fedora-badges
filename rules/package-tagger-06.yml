@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+
+name:           Chief Package Tagger (Package Tagger VI)
+description:    Added 1500 new tags to packages in Fedora Tagger.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/299
+image_url:      https://badges.fedoraproject.org/pngs/tagger-tags-1500_v2.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - topic: fedoratagger.tag.create
+  - lambda:  not msg.get('msg', {}).get('user', {}).get('anonymous', True)
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        topics:
+        - "%(topic)s"
+        users:
+        - "%(msg.user.username)s"
+      operation: count
+      condition:
+        greater than or equal to: 1500
+
+recipient: "%(msg.user.username)s"

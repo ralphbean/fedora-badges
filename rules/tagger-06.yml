@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+
+name:           Chief Tagger (Tagger VI)
+description:    Voted on 3000 tags for packages in Fedora Tagger.
+creator:        ralph
+discussion:     https://fedorahosted.org/fedora-badges/ticket/300
+image_url:      https://badges.fedoraproject.org/pngs/tagger-votes-3000_v2.png
+issuer_id:      fedora-project
+
+# We'll perform our more costly check (defined below) only when
+# we receive messages that match this 'trigger'
+trigger:
+  all:
+  - any:
+    - topic: fedoratagger.tag.create
+    - topic: fedoratagger.tag.update
+  - lambda:  not msg.get('msg', {}).get('user', {}).get('anonymous', True)
+
+# Once the check has been triggered, this defines what we actually check.
+criteria:
+  datanommer:
+      filter:
+        categories:
+        - "fedoratagger"
+        users:
+        - "%(msg.user.username)s"
+      operation: count
+      condition:
+        greater than or equal to: 3000
+
+recipient: "%(msg.user.username)s"
