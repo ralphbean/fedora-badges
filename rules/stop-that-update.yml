@@ -15,6 +15,7 @@ trigger:
   - any:
     - lambda: msg.get('msg', {}).get('comment', {}).get('update_status') == 'stable'
     - lambda: msg.get('msg', {}).get('comment', {}).get('update_status') == 'pending'
+  - lambda: msg.get('msg', {}).get('comment', {}).get('update_request') == 'stable'
 
 criteria:
   datanommer:
