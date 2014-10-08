@@ -16,8 +16,8 @@
    inkscape:version="0.48.2 r9819"
    width="256"
    height="256"
-   sodipodi:docname="flock_organizer_2013.svg"
-   inkscape:export-filename="/Users/riecatnor/Desktop/Fedora/BADGES/badges/flock_organizer_2013.png"
+   sodipodi:docname="flock_organizer_2014.svg"
+   inkscape:export-filename="/Users/riecatnor/Desktop/Fedora/BADGES/badges/flock_organizer_2014.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -36353,14 +36353,14 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1713"
-     inkscape:window-height="1396"
+     inkscape:window-width="1525"
+     inkscape:window-height="1381"
      id="namedview4328"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="115.59758"
-     inkscape:cy="149.52691"
-     inkscape:window-x="0"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="550.36014"
+     inkscape:cy="131.64137"
+     inkscape:window-x="-1"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="g8420"
@@ -36369,10 +36369,6 @@
     <inkscape:grid
        type="xygrid"
        id="grid8160" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-39.59798,-111.01576"
-       id="guide8178" />
   </sodipodi:namedview>
   <g
      id="g8420">
@@ -36869,6 +36865,6 @@
          id="tspan27737"
          x="135.35631"
          y="152.39424"
-         style="stroke-width:1.02922547">2013</tspan></text>
+         style="stroke-width:1.02922547">2014</tspan></text>
   </g>
 </svg>
